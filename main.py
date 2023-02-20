@@ -174,7 +174,7 @@ def draw_window(win, birds, pipes, base, score, gen):
         pipe.draw(win)
 
     text = STAT_FONT.render("Score: " + str(score), 1, (255, 255, 255))
-    win.blit(text, (WIN_WIDTH - 100 - text.get_height(), 10))
+    win.blit(text, (WIN_WIDTH - 120 - text.get_height(), 10))
 
     text = STAT_FONT.render("Gen: " + str(gen), 1, (255, 255, 255))
     win.blit(text, (10, 10))
