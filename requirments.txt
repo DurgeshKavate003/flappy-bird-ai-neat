@@ -1,5 +1,0 @@
-pygame
-neat-python
-time
-os
-random
